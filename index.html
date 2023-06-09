@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header>
+
+        <div class="headerContainer">
+            <div class="filters">
+                <h1 class="Africa">Africa</h1>
+                <h1 data-region="Americas">Americas</h1>
+                <h1 data-region="Asia">Asia</h1> 
+                <h1 data-region="Europe">Europe</h1>
+                <h1 data-region="Oceania">Oceania</h1>
+            </div>
+            </div>
+
+            <div class="themeBtn">
+                <button id="theme-toggle">Theme switch</button>
+            </div>
+           
+    </header>
+
+    <main>
+        
+            <div class="search">
+                <input type="text" id="searchInput" placeholder="Search countries...">
+            </div>
+                
+      
+            
+            <div class="container">
+            </div>
+
+            <div class="SetInfo"></div>
+
+         
+            
+            <div class="pagination">
+                <button class='btn_prev'>prev</button>
+                <span class='current'></span>
+                <button class='btn_next'>next</button>
+            </div>
+    </main>
+
+
+    <div class="modal" >
+        <div class="modal_content"></div>
+        <div class="close_btn"></div>
+
+    </div>
+    
+   
+
+    <script src="./script.js"></script>
+</body>
+</html>
